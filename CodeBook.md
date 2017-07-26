@@ -15,27 +15,50 @@ features
  ## data label
 label
 
+## the data merged x_train and x_test
 
-## step 1 
+dataset
 
-put data feature as column names
+## the columns from feature with mean
 
-## step 2
+selection_colonne
 
-merge the train and the test subject
+## the columns from feature with std
 
-## step 3
+selection_colonne2
 
-extract only the column with mean and std
+## selection_mean
 
-## step 4
+the selection from data set with only the means
 
-merge the label with the activity
+## selection_std
 
-## step 5
+the selection from data set with only the std
 
-merge the activity with with subjet and with the data
+## extraction
 
-## step 6
+merge selection_mean and selection_std
 
-split the data for each subject and each activity to calcul the mean
+## activity_train
+
+merge y_train and label
+
+## activity_test
+
+merge y_test and label
+
+## activity
+
+merge activity_test and activity_train
+
+## dataset2
+
+add activity to extraction
+
+## sujet
+
+merge sub_train and sub_test
+
+## dataset2
+add sujet to dataset2
+
