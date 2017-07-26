@@ -1,17 +1,26 @@
 # datacleaning
 assignment for coursera
 
-x_train <- read.table("X_train.txt") ## data training
-y_train <- read.table("y_train.txt")  ## data label for training
-x_test <- read.table("X_test.txt")  ## data test
-y_test <- read.table("y_test.txt")  ## data label for test
-sub_test<- read.table("subject_test.txt")  ## data subject test
-sub_train<- read.table("subject_train.txt")  ## data subject training
-features<- read.table("features.txt")  ## data column
-label<- read.table("activity_labels.txt")  ## data label
+## data training
+x_train <- read.table("X_train.txt") 
+## data label for training
+y_train <- read.table("y_train.txt")  
+## data test
+x_test <- read.table("X_test.txt")  
+## data label for test
+y_test <- read.table("y_test.txt")  
+## data subject test
+sub_test<- read.table("subject_test.txt")  
+## data subject training
+sub_train<- read.table("subject_train.txt")  
+## data column
+features<- read.table("features.txt")  
+ ## data label
+label<- read.table("activity_labels.txt") 
 
 
 ## to see the variables caracteristics
+
 str(label)
 str(y_train)
 str(y_test)
