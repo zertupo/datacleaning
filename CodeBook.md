@@ -1,9 +1,11 @@
 ## data training
-x_train
+x_train 
+the data are in standard gravity unit for 'total_acc_x', the body acceleration is the substraction of the gravity from de the total and the body_gyro are in radians/second
 ## data label for training
 y_train  
 ## data test
-x_test 
+x_test
+the data are in standard gravity unit for 'total_acc_x', the body acceleration is the substraction of the gravity from de the total and the body_gyro are in radians/second
 ## data label for test
 y_test
 ## data subject test
