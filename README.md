@@ -10,7 +10,6 @@ For each record it was provided:
 - Its activity label. 
 - An identifier of the subject who carried out the experiment.
 
-The code extract the zip file, in the folder Users. It may be not work following the system you use. If doesn't work, extract handly in the folder Users and erase the adress of the txt file to open, let just the name of txt file.
-
 The code proceed to keep only the means and standard deviation of the data and make a data frame with the mean of each person for each activity for each variable.
+The final data set has a dimension of 35-56.
 
