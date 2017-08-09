@@ -19,48 +19,53 @@ label
 
 ## the data merged x_train and x_test
 
-dataset
+datas
 
-## the columns from feature with mean
+## the data merged y_train and y_test
 
-selection_colonne
+y_data
 
-## the columns from feature with std
+## the data merged sub_train and sub_test
 
-selection_colonne2
+sub_data
 
-## selection_mean
+## the integer of column containing 'Mean' or 'SD'
 
-the selection from data set with only the means
+colonne
 
-## selection_std
+## the names of columns
 
-the selection from data set with only the std
+nom_colonne
 
-## extraction
+## the dataset of 'data' with only the column of means and SD
 
-merge selection_mean and selection_std
+select_data
 
-## activity_train
+## the data merged y_data and label
 
-merge y_train and label
+activity
 
-## activity_test
+## the tidy date, the merge of sub_data,actitivy and select_data
 
-merge y_test and label
+complete_data
 
-## activity
+## tidy data of mean of each variable for each subject and each activity
 
-merge activity_test and activity_train
+final
 
-## dataset2
+## name of variable in the final tidy data
 
-add activity to extraction
+[1] "subject"                              "activity"                             "id_activity"                          "tBodyAcc-mean()-X"                    "tBodyAcc-mean()-Y"                   
+ [6] "tBodyAcc-mean()-Z"                    "tGravityAcc-mean()-X"                 "tGravityAcc-mean()-Y"                 "tGravityAcc-mean()-Z"                 "tBodyAccJerk-mean()-X"               
+[11] "tBodyAccJerk-mean()-Y"                "tBodyAccJerk-mean()-Z"                "tBodyGyro-mean()-X"                   "tBodyGyro-mean()-Y"                   "tBodyGyro-mean()-Z"                  
+[16] "tBodyGyroJerk-mean()-X"               "tBodyGyroJerk-mean()-Y"               "tBodyGyroJerk-mean()-Z"               "tBodyAccMag-mean()"                   "tGravityAccMag-mean()"               
+[21] "tBodyAccJerkMag-mean()"               "tBodyGyroMag-mean()"                  "tBodyGyroJerkMag-mean()"              "fBodyAcc-mean()-X"                    "fBodyAcc-mean()-Y"                   
+[26] "fBodyAcc-mean()-Z"                    "fBodyAcc-meanFreq()-X"                "fBodyAcc-meanFreq()-Y"                "fBodyAcc-meanFreq()-Z"                "fBodyAccJerk-mean()-X"               
+[31] "fBodyAccJerk-mean()-Y"                "fBodyAccJerk-mean()-Z"                "fBodyAccJerk-meanFreq()-X"            "fBodyAccJerk-meanFreq()-Y"            "fBodyAccJerk-meanFreq()-Z"           
+[36] "fBodyGyro-mean()-X"                   "fBodyGyro-mean()-Y"                   "fBodyGyro-mean()-Z"                   "fBodyGyro-meanFreq()-X"               "fBodyGyro-meanFreq()-Y"              
+[41] "fBodyGyro-meanFreq()-Z"               "fBodyAccMag-mean()"                   "fBodyAccMag-meanFreq()"               "fBodyBodyAccJerkMag-mean()"           "fBodyBodyAccJerkMag-meanFreq()"      
+[46] "fBodyBodyGyroMag-mean()"              "fBodyBodyGyroMag-meanFreq()"          "fBodyBodyGyroJerkMag-mean()"          "fBodyBodyGyroJerkMag-meanFreq()"      "angle(tBodyAccMean,gravity)"         
+[51] "angle(tBodyAccJerkMean),gravityMean)" "angle(tBodyGyroMean,gravityMean)"     "angle(tBodyGyroJerkMean,gravityMean)" "angle(X,gravityMean)"                 "angle(Y,gravityMean)"                
+[56] "angle(Z,gravityMean)"                
 
-## sujet
-
-merge sub_train and sub_test
-
-## dataset2
-add sujet to dataset2
 
